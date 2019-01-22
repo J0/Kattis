@@ -3,3 +3,70 @@
 .pyc
 .class
 .in
+
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @J0 Sign out
+2,734
+77,985 37,173 github/gitignore
+ Code  Pull requests 64  Projects 0  Insights
+gitignore/Global/Emacs.gitignore
+87ec1bd  on 7 Nov 2018
+@watilde watilde Add "network-security.data"
+@stenskjaer @jonathanchu @the-kenny @robsonpeixoto @rexim @pxqr @jaseemabid @iorionda @yoLotus @dcolish @watilde @chwarr @defunkt @aroben
+     
+50 lines (36 sloc)  505 Bytes
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+# network security
+/network-security.data
